@@ -25,7 +25,7 @@ tabBtn.addEventListener("click", function(){
 //renderizar links
 function render(links) {
     let listItems = ""
-    for (let i = 0; i < leads.length; i++) {
+    for (let i = 0; i < links.length; i++) {
         listItems += `
             <li>
                 <a target='_blank' href='${links[i]}'>
